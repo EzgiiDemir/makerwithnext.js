@@ -8,10 +8,10 @@ export default function Home() {
           Brand
         </div>
         <ul className="hidden sm:flex gap-8 text-white">
-          <li><a href="#" className="hover:text-gray-300">Home</a></li>
-          <li><a href="#" className="hover:text-gray-300">About</a></li>
-          <li><a href="#" className="hover:text-gray-300">Services</a></li>
-          <li><a href="#" className="hover:text-gray-300">Contact</a></li>
+          <li><a href="/" className="hover:text-gray-300">Anasayfa</a></li>
+          <li><a href="#" className="hover:text-gray-300">Hakkımızda</a></li>
+          <li><a href="/" className="hover:text-gray-300">Servislerimiz</a></li>
+          <li><a href="#" className="hover:text-gray-300">İletişim</a></li>
         </ul>
         <button className="sm:hidden text-white">
           <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -45,7 +45,7 @@ export default function Home() {
               <p className="text-gray-700 mt-2">
                 Kariyer yolculuğunuzda hangi alanlarda başarılı olduğunuzu öğrenmek ve sizin için en uygun kariyer yolunu keşfetmek ister misiniz?
               </p>
-              <a href="#" className="text-blue-500 hover:underline mt-4 block">
+              <a href="carriers" className="text-blue-500 hover:underline mt-4 block">
                 Kariyer Testini Keşfet
               </a>
             </div>
@@ -59,7 +59,7 @@ export default function Home() {
               <p className="text-gray-700 mt-2">
                 Sizin ve partnerinizin film zevklerini bir araya getirip, ortak bir film bulma konusunda zorlanıyorsanız, doğru yerdesiniz!
               </p>
-              <a href="#" className="text-blue-500 hover:underline mt-4 block">
+              <a href="movies" className="text-blue-500 hover:underline mt-4 block">
                 Ortak Filminizi Keşfedin
               </a>
             </div>
